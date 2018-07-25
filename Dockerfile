@@ -48,3 +48,6 @@ ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 RUN go get github.com/tebeka/go2xunit
 RUN go get github.com/axw/gocov/gocov
 RUN go get github.com/AlekSi/gocov-xml
+
+## CompileDaemon
+RUN go get github.com/githubnemo/CompileDaemon
