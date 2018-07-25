@@ -51,3 +51,11 @@ RUN go get github.com/AlekSi/gocov-xml
 
 ## CompileDaemon
 RUN go get github.com/githubnemo/CompileDaemon
+
+## Networking
+
+ENV PORT 8081
+ENV CBPORT 8082
+
+EXPOSE $PORT
+EXPOSE $CBPORT
